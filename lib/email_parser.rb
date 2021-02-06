@@ -6,5 +6,5 @@ class EmailAddressParser
  end
  
  def parse
-   self.emails.split (',') (' ')
+   self.emails.split(/(,)(' '))
 end
